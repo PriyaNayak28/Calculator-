@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#main-container {
+    width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.573);
+    border-radius: 5px;
+    margin: 30px;
+    margin-left: 300px;
+    background-color: rgba(0, 0, 0, 0.913);
+}
+
+#display {
+    width: 90%;
+    padding: 30px;
+    margin: 10px;
+    font-size: 18px;
+
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: chocolate;
+    background-color: black;
+}
+
+.arthmetic-btn {
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: black;
+    background-color: chocolate;
+
+}
+
+#numberOfButton {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen {
+    #main-container {
+        max-width: 588px;
+        margin-left: 2px;
+    }
+
+}

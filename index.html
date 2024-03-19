@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator🧮</title>
+</head>
+
+<body>
+    <!-- hero-Section -->
+    <main>
+        <div id="main-container">
+
+            <label for="display"></label>
+            <input type="text" name="display" id="display" readonly>
+            <!-- number-container -->
+            <div id="numberOfButton">
+                <!-- btn-C -->
+                <button class="arthmetic-btn" onclick="currentCount = '';  
+                     document.querySelector('#display').value = currentCount;">c</button>
+
+                <!-- btn-1 -->
+                <button class="btn" onclick="currentCount += '1';  
+                document.querySelector('#display').value = currentCount">1</button>
+
+                <!-- btn 2 -->
+                <button class="btn" onclick="currentCount += '2';  
+                document.querySelector('#display').value = currentCount">2</button>
+
+                <!-- btn + -->
+                <button class="arthmetic-btn" onclick="currentCount += '+';  
+                document.querySelector('#display').value = currentCount">+</button>
+
+                <!-- btn 3 -->
+                <button class="btn" onclick="currentCount += '3';  
+                document.querySelector('#display').value = currentCount">3</button>
+
+                <!-- btn 4 -->
+                <button class="btn" onclick="currentCount += '4';  
+                document.querySelector('#display').value = currentCount">4</button>
+
+                <!-- btn - -->
+                <button class="arthmetic-btn" onclick="currentCount += '-';  
+                document.querySelector('#display').value = currentCount">-</button>
+
+                <!-- btn 5 -->
+                <button class="btn" onclick="currentCount += '5';  
+                document.querySelector('#display').value = currentCount">5</button>
+
+                <!-- btn 6 -->
+                <button class="btn" onclick="currentCount += '6';  
+                document.querySelector('#display').value = currentCount">6</button>
+
+                <!-- btn * -->
+                <button class="arthmetic-btn" onclick="currentCount += '*';  
+                document.querySelector('#display').value = currentCount">*</button>
+
+                <!-- btn 7-->
+                <button class="btn" onclick="currentCount += '7';  
+                document.querySelector('#display').value = currentCount">7</button>
+
+                <!-- btn 8 -->
+                <button class="btn" onclick="currentCount += '8';  
+                document.querySelector('#display').value = currentCount">8</button>
+
+                <!-- btn / -->
+                <button class="arthmetic-btn" onclick="currentCount += '/';  
+                document.querySelector('#display').value = currentCount">/</button>
+
+                <!-- btn = -->
+                <button class="arthmetic-btn" onclick="   currentCount = eval(currentCount);
+                document.querySelector('#display').value = currentCount">=</button>
+
+                <!-- btn 9 -->
+                <button class="btn" onclick="currentCount += '9';  
+                document.querySelector('#display').value = currentCount">9</button>
+
+                <!-- btn 0 -->
+                <button class="btn" onclick="currentCount += '0';  
+                document.querySelector('#display').value = currentCount">0</button>
+
+                <!-- btn . -->
+                <button class="btn" onclick="currentCount += '.';  
+                document.querySelector('#display').value = currentCount">.</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
